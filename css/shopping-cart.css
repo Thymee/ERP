@@ -1,0 +1,161 @@
+           html,body {
+				background-color: #efeff4;
+			    }
+			.title{
+				margin: 20px 15px 10px;
+				color: #6d6d72;
+				font-size: 15px;
+			}
+			
+			
+			
+			
+			
+			 .oa-contact-cell.mui-table .mui-table-cell {
+				padding: 10px 0;
+				vertical-align: middle;
+			}
+			
+			.oa-contact-cell {
+				position: relative;
+				margin: -11px 0;
+			}
+	
+			.oa-contact-avatar {
+				width: 75px;
+			}
+			.oa-contact-avatar img {
+				border-radius: 50%;
+			}
+			.oa-contact-content {
+				width: 100%;
+			}
+			.oa-contact-name {
+				margin-right: 20px;
+			}
+			.oa-contact-name, oa-contact-position {
+				float: left;
+			}
+			.mui-table .xcs-color{
+				margin-left: 20px;
+				
+			}
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			.xcs-tittle{
+				background-color: #2AC845;
+				padding-top: 10px;
+			}
+			
+			.xcs-tittle button{
+			   color:#fff;
+			   font-weight:bold;
+			}
+			
+			
+			
+			
+			
+			
+			
+			.xcs-bar-submit {
+    			position: fixed;
+    			bottom: 10px;
+    			left: 0px;
+    			right: 0px;
+    			background: #E4E4E4;
+   				height: 32px;
+    			line-height: 32px;
+    			padding: 0px 140px 0px 15px;
+    			color: #fff;
+    			font-size: 14px;
+    			
+				}
+				
+            .xcs-submit-btn {
+    			position: absolute;
+    			width: 80px;
+    			background-color: #EB4F38;
+    			text-align: center;
+    			right: 0px;
+    			color: #fff;
+			}
+			
+   			.xcs-bar-submit>img{
+   				position:relative;
+   				top:-10px;
+   				left:5px;
+   				margin-right: 10px;
+   			}
+ 			.xcs-bar-submit>strong{
+ 				color:#EB4F38;
+ 			    position: relative;
+ 			     top:-15px;	
+ 			}
+
+      /*文字颜色*/
+	.xcs-color{
+				color: #F16D1D;
+			}
+
+ 			/*数字框*/
+			.xcs-numbox{
+    			width: 80px;
+    			height: 22px;
+    			padding: 0;
+    			vertical-align: top;
+    			vertical-align: middle;
+    			border: none;
+    			margin-right: 20px;
+    			background-color:#fff ;
+			   }
+			.mui-numbox [class*=btn-numbox]{
+    	
+    			border:1px solid #bbb;
+    			width:22px;
+    			border-radius: 3px;
+				}
+			
+ 			.mui-numbox .mui-btn-numbox-plus{
+ 				border-color:#F16D1D;
+ 				color: #F16D1D;
+ 			}
+
+ 			
+ 			.mui-numbox .mui-input-numbox{
+				border-right: none !important;
+ 				border-left: none !important;  
+ 			}			
+ 			
+ 			
+
+			.mui-numbox>.mui-btn-numbox-minus,.mui-numbox>.mui-input-numbox{
+				visibility: hidden;
+				}
+
+			.show .mui-btn-numbox-minus{
+				visibility: hidden;
+				}
+			.show .mui-input-numbox{
+				visibility: hidden;
+				}
+			.show-active .mui-btn-numbox-minus{
+				visibility: visible;
+				}
+			.show-active .mui-input-numbox{
+				visibility: visible;
+				}
+		

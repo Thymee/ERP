@@ -1,0 +1,275 @@
+ 
+ 
+ .mui-content>.mui-table-view:first-child {
+    margin-top: 0px;
+}
+ 
+ .input-group {
+/*    position: relative;*/
+    display: table;
+    border-collapse: separate;
+}
+    	
+    .input-group .form-control {
+    display: table-cell;
+     /*position: relative;
+    z-index: 2;*/
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    height:32px;
+    border-radius: 0;
+}
+
+.form-control {
+  
+    /*padding: 0px 0px;*/
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    
+}	
+    
+    .input-group-btn {
+    /*position: relative;*/
+    display: table-cell;
+    font-size: 0;
+    white-space: nowrap;
+    width: 1%;
+     vertical-align: middle;
+}
+
+
+	
+    	
+  .input-group-btn:last-child>.btn{
+  	color:#fff;
+  	font-weight: 600;
+  	height:32px;
+    /*z-index: 2;*/
+    margin-left: -1px;
+     
+    background-color: #4A8FD6;
+    border: 0;
+   	border-radius: 0; 
+     border-top-left-radius: 0; 
+     border-top-right-radius: 0; 
+     border-bottom-right-radius: 0; 
+     border-bottom-left-radius: 0;  
+}
+
+
+
+
+
+.mui-fullscreen{
+	position:relative;
+}
+
+
+.mui-row.mui-fullscreen>[class*="mui-col-"] {
+				height: 100%;
+			}
+.mui-col-xs-3,.mui-control-content {
+				overflow-y: auto;
+				height: 100%;
+			}
+.mui-segmented-control .mui-control-item {
+				line-height: 50px;
+				width: 100%;
+			}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+				background-color: #fff;
+			}
+
+
+
+
+
+
+
+
+/*左侧角标*/
+
+/*.mui-table-view-cell {
+    text-align: center;
+    
+    -webkit-touch-callout: none;
+}*/
+
+
+
+.mui-control-item>.mui-icon{
+    font-size: 10px;
+    line-height: 1.4;
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    margin-left: -20px;
+    padding: 1px 5px;
+    color: #fff;
+    background: red;
+   
+    }
+    
+.mui-control-item>.mui-badge{
+	right:2px;
+	text-align:center;
+}	
+
+
+
+/*右侧列表*/
+
+.oa-contact-cell.mui-table .mui-table-cell {
+				padding: 10px 0;
+				vertical-align: middle;
+			}
+			
+			.oa-contact-cell {
+				position: relative;
+				margin: -11px 0;
+			}
+	
+			.oa-contact-avatar {
+				width: 75px;
+			}
+			.oa-contact-avatar img {
+				border-radius: 50%;
+			}
+			.oa-contact-content {
+				width: 100%;
+			}
+			.oa-contact-name {
+				margin-right: 15px;
+    			font-weight: bold;
+   
+			}
+			.oa-contact-name, oa-contact-position {
+				float: left;
+			}
+			.mui-table .xcs-color{
+				margin-left: 20px;
+				
+			}
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			.xcs-tittle{
+				background-color: #2AC845;
+				padding-top: 10px;
+			}
+			
+			.xcs-tittle button{
+			   color:#fff;
+			   font-weight:bold;
+			}
+			
+			
+			
+			
+			
+			
+			
+			.xcs-bar-submit {
+    			position: fixed;
+    			bottom: 10px;
+    			left: 0px;
+    			right: 0px;
+    			background: #E4E4E4;
+   				height: 32px;
+    			line-height: 32px;
+    			padding: 0px 140px 0px 15px;
+    			color: #fff;
+    			font-size: 14px;
+    			
+				}
+				
+            .xcs-submit-btn {
+    			position: absolute;
+    			width: 80px;
+    			background-color: #EB4F38;
+    			text-align: center;
+    			right: 0px;
+    			color: #fff;
+			}
+			
+   			.xcs-bar-submit>img{
+   				position:relative;
+   				top:-10px;
+   				left:5px;
+   				margin-right: 10px;
+   			}
+ 			.xcs-bar-submit>strong{
+ 				color:#EB4F38;
+ 			    position: relative;
+ 			     top:-15px;	
+ 			}
+
+      /*文字颜色*/
+	.xcs-color{
+				color: #F16D1D;
+			}
+
+ 			/*数字框*/
+			.xcs-numbox{
+    			width: 80px;
+    			height: 22px;
+    			padding: 0;
+    			vertical-align: top;
+    			vertical-align: middle;
+    			border: none;
+    			margin-right: 20px;
+    			background-color:#fff ;
+			   }
+			.mui-numbox [class*=btn-numbox]{
+    	
+    			border:1px solid #bbb;
+    			width:22px;
+    			border-radius: 3px;
+				}
+			
+ 			.mui-numbox .mui-btn-numbox-plus{
+ 				border-color:#F16D1D;
+ 				color: #F16D1D;
+ 			}
+
+ 			
+ 			.mui-numbox .mui-input-numbox{
+				border-right: none !important;
+ 				border-left: none !important;  
+ 			}			
+ 			
+ 			
+
+			.mui-numbox>.mui-btn-numbox-minus,.mui-numbox>.mui-input-numbox{
+				visibility: hidden;
+				}
+
+			.show .mui-btn-numbox-minus{
+				visibility: hidden;
+				}
+			.show .mui-input-numbox{
+				visibility: hidden;
+				}
+			.show-active .mui-btn-numbox-minus{
+				visibility: visible;
+				}
+			.show-active .mui-input-numbox{
+				visibility: visible;
+				}
+		

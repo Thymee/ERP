@@ -1,0 +1,123 @@
+
+    
+    .xcs-orders-info{
+    	margin-top: 5px;
+    }
+    
+    
+ 	.xcs-orders-info:before{
+    	content: '';
+    	position: absolute;
+    	height: 1px;
+    	background: #c8c7cc;
+    	left: 0px;
+   	 	right: 0px;
+    	top: 0px;
+    	-webkit-transform: scaleY(.5);
+    	transform: scaleY(.5);
+ 	}
+    
+	.mui-content>.mui-table-view:first-child {
+    	margin-top: 0;
+	}
+    
+    .mui-table-view .mui-media-body{
+   		margin-top: 5px;
+	}
+    
+    
+    
+    .input-group {
+    	display: table;
+    	border-collapse: separate;
+	}
+    	
+    .input-group .form-control {
+    	display: table-cell;
+   		float: left;
+    	width: 100%;
+    	margin-bottom: 0;
+    	height:32px;
+    	border-radius: 0;
+	}
+
+	.form-control {
+    	font-size: 14px;
+   	 	color: #555;
+    	background-color: #fff;
+    	background-image: none;
+    	border: 1px solid #ccc;
+	}	
+    
+    .input-group-btn {
+    	display: table-cell;
+    	font-size: 0;
+    	white-space: nowrap;
+    	width: 1%;
+     	vertical-align: middle;
+	}	
+
+
+	
+    	
+  .input-group-btn:last-child>.btn{
+  	color:#fff;
+  	font-weight: 600;
+  	height:32px;
+    margin-left: -1px;
+     
+    background-color: #4A8FD6;
+    border: 0;
+   	border-radius: 0; 
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+    border-bottom-left-radius: 0;  
+	}
+    
+    
+    
+    .mui-table-view-chevron .mui-table-view-cell {
+   		padding-right: 15px;
+   	}
+    
+    .mui-table-view  .mui-media-object.xcs-media-object{
+    	line-height: 60px;
+    	max-width: 60px;
+    	height: 60px;
+    	margin-right: 20px
+    	
+    }
+    
+    
+    .mui-table{
+    	margin-top: 10px;
+    	
+    }
+    	
+	.mui-table .mui-table-cell{
+		vertical-align: middle;
+	}
+    
+    
+    .mui-table-cell .mui-btn-blue{
+    	padding:3px 6px;
+    	font-size: 12px;
+    	border-radius: 0px;
+    	border-top-left-radius: 0px;
+    	border-top-right-radius: 0px;
+    	border-bottom-right-radius: 0px;
+    	border-bottom-left-radius: 0px;  	
+	}
+    
+    	
+    .xcs-color{
+				color: #F16D1D;
+	}	
+    	
+    	
+    	
+    	
+    	
+    	
+    	

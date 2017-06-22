@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/mine.css">
+	
+	</head>
+
+	<body>
+		
+		<div class="mui-content">
+			<ul class="mui-table-view">
+				<li  id="receiving-info" class="mui-table-view-cell ">
+					<a  class="mui-navigate-right" >
+						<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="../images/u446.png" />
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name ">18区张店长</h4>
+									
+								</div>
+								<p class="oa-contact-phonenumber mui-h4">
+									135***5214
+								</p>
+							</div>
+						</div>
+					</div>
+					</a>
+				</li>
+				<li  id="my-orders" class="mui-table-view-cell ">
+					<a  class="mui-navigate-right  " >
+						<img  src="../images/u460.png">我的订单
+					</a>
+				</li>
+				<li  id="my-collection"  class="mui-table-view-cell ">
+					<a class="mui-navigate-right ">
+						<img  src="../images/u466.png">我的收藏
+					</a>
+				</li>
+			</ul>
+			
+		</div>
+		
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+		
+	document.getElementById('receiving-info').addEventListener('tap', function() {//打开收货信息页面
+   		 mui.openWindow({
+   		 url: 'receiving-info.html', 
+   		 id:'receiving-info'
+   		 });
+		});
+		
+	document.getElementById('my-orders').addEventListener('tap', function() {//打开我的订单页面
+   		 mui.openWindow({
+   		 url: 'my-orders.html', 
+   		 id:'my-orders'
+   		 });
+		});
+	
+	document.getElementById('my-collection').addEventListener('tap', function() {//打开我的收藏页面
+   		 mui.openWindow({
+   		 url: 'my-collection.html', 
+   		 id:'my-collection'
+   		 });
+		});
+	
+		
+	</script>
+</html>

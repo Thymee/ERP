@@ -1,0 +1,56 @@
+
+
+
+.xcs-dalert {
+    text-align: center;
+    padding:20px 20px 40px;
+    font-size: 18px;
+    border-bottom:1px solid #c8c7cc;
+    background-color: #fff;
+}
+.xcs-dalert:after {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+    top: -1px;
+}
+
+
+
+
+    .xcs-dalert img{
+    	width: 75px;
+    	margin-bottom: 20px;
+    }
+    
+
+	.xcs-dalert h4{
+		font-size: 14px;
+		
+	}
+
+
+
+
+
+/*底部按钮*/
+
+.xcs-button{
+	margin-top: 10px;
+}
+
+
+
+
+.mui-btn-warning{
+	margin-right:20px ;
+}
+.mui-btn-primary{
+	margin-left:20px ;
+}
+

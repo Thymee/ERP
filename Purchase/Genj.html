@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/genj.css" rel="stylesheet"/>
+   
+    
+</head>
+<body>
+	
+	<div class="mui-content">
+	    <ul class="mui-table-view ">
+					<li class="mui-table-view-cell">
+						<h5 class="">叶菜类(6)</h5>
+						<div class="mui-slider-cell">
+							
+							<div class="oa-contact-cell mui-table">
+								<div class="oa-contact-avatar mui-table-cell">
+									<img src="../images/u227.png" />
+								</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<p class="oa-contact-name">昆明芥蓝仔（30斤）</p>
+									<span class="oa-contact-position "><img  src="../images/u414.png"></span>
+								</div>
+								<div class="mui-table">
+		                			<div class="mui-table-cell mui-col-xs-6">
+		                   
+		                    			<p><span class="xcs-color">120元</span>/件</p>
+		                			</div>
+		                			<div class="mui-table-cell mui-col-xs-6 mui-text-right">
+		                    			<div class="mui-numbox xcs-numbox" data-numbox-min='0' >
+											<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+											<input id="test" class="mui-input-numbox" type="number" value="5" />
+											<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+										</div>
+		                    
+		               	 			</div>
+		            			</div>
+								
+							</div>
+							
+							
+							
+							
+						</div>
+						
+						
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="../images/u237.png" />
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<p class="oa-contact-name">荷兰土豆</p>
+									<span class="oa-contact-position mui-h6"><img  src="../images/u414.png"></span>
+								</div>
+								
+							</div>
+						</div>
+						<div class="mui-table">
+		                			<div class="mui-table-cell mui-col-xs-6">
+		                    			<p>箱装35斤<span class="xcs-color">120元</span>/件</p>
+					
+		                			</div>
+		                			<div class="mui-table-cell mui-col-xs-6 mui-text-right">
+		                    			<div class="mui-numbox xcs-numbox" data-numbox-min='0' >
+											<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+											<input id="test" class="mui-input-numbox" type="number" value="5" />
+											<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+										</div>
+		                    
+		               	 			</div>
+		               	 			
+		            			
+						</div>
+						<div class=" mui-table " style="margin-top: 20px;">
+		                			<div class="mui-table-cell mui-col-xs-6">
+		                    			<p>论斤称<span class="xcs-color">8元</span>/斤</p>
+					
+		                			</div>
+		                			<div class="mui-table-cell mui-col-xs-6 mui-text-right">
+		                    			<div class="mui-numbox xcs-numbox" data-numbox-min='0' >
+											<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+											<input id="test" class="mui-input-numbox" type="number" value="5" />
+											<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+										</div>
+		                    
+		               	 			</div>
+		               	 			
+		            			
+						</div>
+						
+					</div>	
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="../images/u237.png" />
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<p class="oa-contact-name">无土番茄</p>
+									<span class="oa-contact-position mui-h6"><img  src="../images/u418.png"></span>
+								</div>
+								
+							</div>
+						</div>
+						
+						<div class="mui-table">
+		                			<div class="mui-table-cell mui-col-xs-6">
+		                    			<p >箱装35斤<span class="xcs-color">120元</span>/件</p>
+
+		                			</div>
+		                			<div class="mui-table-cell mui-col-xs-6 mui-text-right">
+		                    			<div class="mui-numbox xcs-numbox show" data-numbox-min='0' >
+											<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+											<input id="test" class="mui-input-numbox" type="number" value="5" />
+											<button class="mui-btn mui-btn-numbox-plus " type="button">+</button>
+										</div>
+		                    
+		               	 			</div>
+		            			</div>
+						</div>
+						
+						
+						
+				</li>
+			</ul>
+	</div>
+	
+
+
+
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+		mui.init({
+				swipeBack: true //启用右滑关闭功能
+			});
+			
+		mui(".mui-table-view-cell").on('tap','.mui-btn-numbox-plus',function(){
+			this.parentNode.setAttribute('class','mui-numbox xcs-numbox show-active');
+			});	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+    body,body{
+    	background-color: #fff;
+    }
+    .mui-content{
+    	background-color: #fff;
+    }
+    
+    
+    .mui-content>.mui-table-view{
+    	margin-top: 8px;
+    }
+    
+    
+    
+    .xcs-dalert {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    border-bottom:1px solid #c8c7cc;
+    background-color: #fff;
+	}
+	.xcs-dalert:after {
+    	position: absolute;
+    	right: 0;
+    	left: 0;
+    	height: 1px;
+    	content: '';
+   		 -webkit-transform: scaleY(.5);
+    	transform: scaleY(.5);
+    	background-color: #c8c7cc;
+    	top: -1px;
+	}
+
+
+
+
+    .xcs-dalert img{
+    	width: 75px;
+    	
+    }
+    
+    
+ 
+   
+
+	.xcs-rate-group{
+    	height: 100%;
+    	width: 40%;
+    	font-size: 0px;
+    	display: inline;
+	}
+   .xcs-rate-group>div {
+    	width: 50%;
+    	height: 50%;
+    	display: inline-block;
+    	font-size: 15px;
+     	line-height: 22px; 
+    	padding: 0px 10px;
+
+	}
+
+	.xcs-info-group{
+    	height: 100%;
+    	font-size: 0px;
+   
+	}
+   .xcs-info-group>div {
+    	height: 50%;
+    	display: inline-block;
+    	font-size: 15px;
+     	line-height: 22px; 
+    	padding: 0px 10px;
+	}
+	
+	.xcs-info-group div:first-of-type{
+		 width: 60%;
+		 padding-left: 60px;
+	}
+	
+   .xcs-info-group div:not(first-of-type){
+		 width: 20%;
+	}
+	
+	
+	
+	.mui-content-padded {
+    	margin: 10px auto;
+    	width: 80%;
+    	text-align: center;
+	}
+    .xy-btn-main{
+    	font-size: 16px;
+    	padding: 6px 0;
+    }
+    
+    .xy-price{
+    	padding-right:20px;
+    	padding-top: 11px;
+    	font-size: 16px;
+    	
+    }
+    
+
+    
+    
+    

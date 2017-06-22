@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/order-confirm.css">
+		
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<button class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left">
+				<span class="mui-icon mui-icon-left-nav"></span>返回</button>
+			<h1 id="title" class="mui-title">订单确认</h1>
+			<button class="mui-btn mui-btn-blue mui-btn-link mui-pull-right"><span class="mui-icon mui-icon-more"></span></button>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view">
+				<img src="../images/u1384.png">
+				<li class="mui-table-view-cell mui-media">
+					
+					<a class="mui-navigate-right">
+						
+					
+					<span style="margin-right: 20px;">十八区张店长</span>
+					<span>135****7452</span>
+					<h4>深圳市罗湖区莲塘坳下村**号</h4>
+				
+					</a>
+				</li>
+			</ul>
+			
+			
+			
+			
+			
+			
+			<ul class="mui-table-view">
+			<li   class="mui-table-view-cell" >
+				<a  id="xcs-time" class="mui-navigate-right">
+						送达时间
+						<span id="info"  class="xcs-right-text xcs-color">8:00</span>
+				</a>
+			</li>
+			<li class="mui-table-view-cell" >
+				<a  id="xcs-remarks" class="mui-navigate-right">
+						<span >订单备注</span> 
+						<span id="info"></span>
+						
+					</a>
+			</li>
+		</ul>
+		<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media ">
+					<p>商品详情</p>
+					<div class="mui-media-body">
+						昆明芥蓝仔（30斤）
+						<div class="xcs-rate-group mui-pull-right">
+							<div>×5</div>
+							<div>¥600</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell mui-media ">
+					<div class="mui-media-body">
+						荷兰土豆
+						<div class="xcs-info-group ">
+							<div>箱装35斤</div>
+							<div>×8</div>
+							<div>¥600</div>
+						</div>
+						<div class="xcs-info-group ">
+							<div>论斤称</div>
+							<div>×5</div>
+							<div>¥40</div>
+						</div>
+					</div>
+					
+				</li>
+				<li class="mui-table-view-cell mui-media ">
+					<div class="mui-media-body">
+						无土番茄
+						<div class="xcs-info-group ">
+							<div>箱装30斤</div>
+							<div>×10</div>
+							<div>¥1060</div>
+						</div>
+						
+					</div>
+					
+				</li>
+			</ul>
+			
+			
+			
+			
+			
+			
+			
+			
+		<div class="xcs-bar-submit">
+		<img  src="../images/u434.png"></span>
+		<strong >¥2460</strong>
+		
+		<span id="xcs-submit-btn" class="xcs-submit-btn" data-url="./booking-done.html">确认下单</span>
+		</div>		
+		</div>
+	<nav class="mui-bar mui-bar-tab">
+		<a id="defaultTab" class="mui-tab-item " href="Purchase/purchase.html">
+			<span class="mui-icon mui-icon-home"></span>
+			<span class="mui-tab-label">采购</span>
+		</a>
+		<a class="mui-tab-item mui-active" href="Shopping_Cart/shopping-cart.html">
+			<span class="mui-icon mui-icon-email"></span>
+			<span class="mui-tab-label">购物车</span>
+		</a>
+		<a class="mui-tab-item " href="Mine/mine.html">
+			<span class="mui-icon mui-icon-contact"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>		
+		
+		
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	
+	
+document.getElementById("xcs-remarks").addEventListener('tap', function(e) {
+				e.detail.gesture.preventDefault(); //修复iOS 8.x平台存在的bug，使用plus.nativeUI.prompt会造成输入法闪一下又没了
+				var btnArray = ['取消', '确定'];
+				mui.prompt('请输入您的备注信息：', '性能好', '小菜神', btnArray, function(e) {
+					if (e.index == 1) {
+						mui.alert("备注成功");	
+					} else {
+						mui.alert("你点了取消按钮");	
+					}
+				});
+			});
+	
+
+document.getElementById('xcs-submit-btn').addEventListener('tap', function() {
+//打开关于页面
+   		 mui.openWindow({
+   		 url: 'info-confirm.html', 
+   		 id:'info-confirm'
+   		 });
+		});
+	
+	var info = document.getElementById("info");
+	mui.plusReady(function(){
+  		document.getElementById("xcs-time").addEventListener('tap', function (){
+//			mui.alert(info.innerText);
+				var dTime = new Date();
+				dTime.setHours(6, 0);
+				plus.nativeUI.pickTime(function(e) {
+					var d = e.date;
+					info.innerText = d.getHours() + ":" + d.getMinutes();
+				}, function(e) {
+					info.innerText = "";
+				}, {
+					title: "请选择时间",
+					is24Hour: true,
+					time: dTime
+				});
+			});  
+	
+	});  
+	
+	
+	
+	
+	
+	
+	</script>
+</html>

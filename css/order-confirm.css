@@ -1,0 +1,146 @@
+
+
+
+
+
+/*图片*/
+ .mui-table-view>img{
+ 	width: 100%;
+ 	height: 14px;
+ 	line-height: 14px;
+	position: absolute;
+	top:-2px
+	
+	
+}
+
+
+
+
+
+.mui-content>.mui-table-view:first-child {
+    margin-top: 0;
+}
+
+
+.mui-table-view>.mui-table-view-cell:first-child{
+	
+	margin-top: 5px;
+}
+
+
+
+
+
+
+    /*文字颜色*/
+	.xcs-color{
+				color: #F16D1D;
+			}
+
+	/*送达时间  订单备注*/
+.mui-table-view-cell .xcs-right-text {
+    position: absolute;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    right: 40px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+
+
+
+
+/*商品详情*/
+
+.mui-media>p{
+	
+	margin-bottom: 20px;
+}
+
+.xcs-rate-group{
+    height: 100%;
+    width: 40%;
+    font-size: 0px;
+    display: inline;
+   
+}
+   .xcs-rate-group>div {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    font-size: 15px;
+     line-height: 22px; 
+    padding: 0px 10px;
+
+}
+
+.xcs-info-group{
+    height: 100%;
+   /* width: 40%;*/
+    font-size: 0px;
+    /*padding-left: 72px;
+    /*display: inline;*/*/
+   
+}
+   .xcs-info-group>div {
+    /*width: 33.333333%;*/
+    height: 50%;
+    display: inline-block;
+    font-size: 15px;
+     line-height: 22px; 
+    padding: 0px 10px;
+	}
+	
+	.xcs-info-group div:first-of-type{
+		
+		 width: 60%;
+		 padding-left: 60px;
+	}
+	
+   .xcs-info-group div:not(first-of-type){
+		
+		 width: 20%;
+	}
+			
+			
+			
+			
+	/*底部确认框*/
+			
+			.xcs-bar-submit {
+    			position: fixed;
+    			bottom: 61px;
+    			left: 0px;
+    			right: 0px;
+    			background: #E4E4E4;
+   				height: 32px;
+    			line-height: 32px;
+    			padding: 0px 140px 0px 15px;
+    			color: #fff;
+    			font-size: 14px;
+    			
+				}
+				
+            .xcs-submit-btn {
+    			position: absolute;
+    			width: 80px;
+    			background-color: #EB4F38;
+    			text-align: center;
+    			right: 0px;
+    			color: #fff;
+			}
+			
+   			.xcs-bar-submit>img{
+   				position:relative;
+   				top:-10px;
+   				left:5px;
+   				margin-right: 10px;
+   			}
+ 			.xcs-bar-submit>strong{
+ 				color:#EB4F38;
+ 			    position: relative;
+ 			     top:-15px;	
+ 			}

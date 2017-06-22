@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+   
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+   	<link href="../css/my-orders.css" rel="stylesheet"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<button class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left">
+		<span class="mui-icon mui-icon-left-nav"></span>返回</button>
+		<h1 id="title" class="mui-title">小菜神供港蔬菜</h1>
+		<button class="mui-btn mui-btn-blue mui-btn-link mui-pull-right"><span class="mui-icon mui-icon-more"></span></button>
+	</header>
+	<div class="mui-content">
+	    <ul class="mui-table-view ">
+			<li class="mui-table-view-cell mui-media">
+				<a href="#">
+					<img class="mui-media-object mui-pull-left head-img" id="head-img" src="../images/u205.jpg">
+					<div class="mui-media-body" >
+						<div class="input-group" >
+      						<input type="text" class="form-control" placeholder="输入订单日期">
+      						<span class="input-group-btn">
+        						<button class="btn btn-default" type="button">搜索</button>
+      						</span>
+    					</div>	
+					</div>
+				</a>
+			</li>
+		</ul>
+	    
+	 
+		<ul class="mui-table-view ">
+			
+			<li class="mui-input-row mui-table-view-cell">
+					<a id="my-orders1">
+						<span class="xcs-left-padded">4月24</span>
+						<span class="xcs-left-time">14:25</span>
+						<span class="mui-icon mui-icon-arrowright"></span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a  href="#">
+						<img class="mui-media-object mui-pull-left xcs-media-object" src="../images/u1701.jpg">
+							<div class="mui-media-body">
+										  ¥2460
+								<div class="mui-table">
+		                					<div class="mui-table-cell ">
+		                    			     	<span class="xcs-color">配送中</span>
+		                					</div>
+		                				<div class="mui-table-cell mui-pull-right" >
+		                    			
+		                    			<button type="button" class="mui-btn mui-btn-blue ">确认收货</button>
+		               	 				</div>
+		            					</div>
+										
+										
+										
+										
+									</div>
+								</a>
+				</li>
+	    </ul>								
+	<ul class="mui-table-view xcs-orders-info">
+			
+			<li class="mui-input-row mui-table-view-cell">
+					<a id="my-orders2">
+						<span class="xcs-left-padded">4月23</sp3n>
+						<span class="xcs-left-time">18:09</span>
+						<span class="mui-icon mui-icon-arrowright"></span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a  href="#">
+						<img class="mui-media-object mui-pull-left xcs-media-object" src="../images/u1715.jpg">
+							<div class="mui-media-body">
+										  ¥2460
+								<div class="mui-table">
+		                					<div class="mui-table-cell ">
+		                    			     	<span class="xcs-color">订单已配送</span>
+		                					</div>
+		                				<div class="mui-table-cell mui-pull-right" >
+		                    			
+		                    			<!--<button type="button" class="mui-btn mui-btn-blue ">确认收货</button>-->
+		               	 				</div>
+		            					</div>
+										
+										
+										
+										
+									</div>
+								</a>
+				</li>
+	    </ul>														
+	<ul class="mui-table-view xcs-orders-info">
+			
+			<li class="mui-input-row mui-table-view-cell">
+					<a   id="my-orders3">
+						<span class="xcs-left-padded">4月22</span>
+						<span class="xcs-left-time">20:55</span>
+						<span class="mui-icon mui-icon-arrowright"></span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a  href="#">
+						<img class="mui-media-object mui-pull-left xcs-media-object" src="../images/u1729.jpg">
+							<div class="mui-media-body">
+										  ¥2460
+								<div class="mui-table">
+		                					<div class="mui-table-cell ">
+		                    			     	<span class="xcs-color">订单已完成</span>
+		                					</div>
+		                				<div class="mui-table-cell mui-pull-right" >
+		                    			
+		                    	
+		               	 				</div>
+		            					</div>
+										
+										
+										
+										
+									</div>
+								</a>
+				</li>
+	    </ul>						    
+	    
+	    
+	    
+	    
+	</div>
+	
+	<nav class="mui-bar mui-bar-tab">
+		<a id="defaultTab" class="mui-tab-item " href="Purchase/purchase.html">
+			<span class="mui-icon mui-icon-home"></span>
+			<span class="mui-tab-label">采购</span>
+		</a>
+		<a class="mui-tab-item" href="Shopping_Cart/shopping-cart.html">
+			<span class="mui-icon mui-icon-email"></span>
+			<span class="mui-tab-label">购物车</span>
+		</a>
+		<a class="mui-tab-item mui-active" href="Mine/mine.html">
+			<span class="mui-icon mui-icon-contact"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	
+	
+	
+	
+	 <script src="../js/mui.min.js"></script>
+	  <script type="text/javascript" charset="UTF-8">
+	  mui.init();
+			
+	  
+      	document.getElementById('my-orders1').addEventListener('tap', function() {
+//打开配送中页面
+   		 mui.openWindow({
+   		 url: 'orders-info.html', 
+   		 id:'orders-info'
+   		 });
+		});
+		
+		document.getElementById('my-orders3').addEventListener('tap', function() {
+//打开订单关闭页面
+   		 mui.openWindow({
+   		 url: 'orders-finished.html', 
+   		 id:' orders-finished'
+   		 });
+		});	 	
+      		
+      	document.getElementById('my-orders2').addEventListener('tap', function() {
+//打开订单完成页面
+   		 mui.openWindow({
+   		 url: 'orders-close.html', 
+   		 id:'orders-close'
+   		 });
+		});	
+      		
+     	
+      	
+      	
+      	
+      	
+      	
+      	
+      	
+    </script>
+</body>
+</html>

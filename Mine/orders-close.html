@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+     <meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+   
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+     
+    
+    <style type="text/css">
+    body,body{
+    	
+    	background-color: #fff;
+    }
+    .mui-content{
+    	background-color: #fff;
+    }
+    
+    
+    
+			
+			
+    .mui-content>.mui-table-view{
+    	margin-top: 8px;
+    }
+    
+    
+    
+    
+    
+    
+    .xcs-dalert {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    border-bottom:1px solid #c8c7cc;
+    background-color: #fff;
+}
+.xcs-dalert:after {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+    top: -1px;
+}
+
+
+
+
+    .xcs-dalert img{
+    	width: 75px;
+    	
+    }
+    
+    
+ 
+   
+
+.xcs-rate-group{
+    height: 100%;
+    width: 40%;
+    font-size: 0px;
+    display: inline;
+   
+}
+   .xcs-rate-group>div {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    font-size: 15px;
+     line-height: 22px; 
+    padding: 0px 10px;
+
+}
+
+.xcs-info-group{
+    height: 100%;
+   /* width: 40%;*/
+    font-size: 0px;
+    /*padding-left: 72px;
+    /*display: inline;*/*/
+   
+}
+   .xcs-info-group>div {
+    /*width: 33.333333%;*/
+    height: 50%;
+    display: inline-block;
+    font-size: 15px;
+     line-height: 22px; 
+    padding: 0px 10px;
+	}
+	
+	.xcs-info-group div:first-of-type{
+		
+		 width: 60%;
+		 padding-left: 60px;
+	}
+	
+   .xcs-info-group div:not(first-of-type){
+		
+		 width: 20%;
+	}
+	
+	
+	
+	.mui-content-padded {
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+}
+    .xy-btn-main{
+    font-size: 16px;
+    padding: 6px 0;
+    }
+    
+    .xy-price{
+    	padding-right:20px;
+    	padding-top: 11px;
+    	font-size: 16px;
+    	
+    }
+    
+    
+    </style>
+    
+    
+    
+    
+    
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<button class="mui-action-back mui-btn mui-btn-blue mui-btn-link mui-btn-nav mui-pull-left">
+		<span class="mui-icon mui-icon-left-nav"></span>返回</button>
+		<h1 id="title" class="mui-title">小菜神供港蔬菜</h1>
+		<button class="mui-btn mui-btn-blue mui-btn-link mui-pull-right"><span class="mui-icon mui-icon-more"></span></button>
+	</header>
+	<div class="mui-content">
+	    
+	
+	<div class="xcs-dalert">
+				
+				<h4>订单已关闭</h4>
+				<div class="mui-h5">
+					<span>创建时间：</span>
+					<span class="xcs-left-padded">4月24</span>
+					<span class="xcs-left-time">14:25</span>
+				</div>
+			    <img src="../images/u1847.png">
+	</div>
+	
+	<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media ">
+				
+					<div class="mui-media-body">
+						昆明芥蓝仔（30斤）
+						<div class="xcs-rate-group mui-pull-right">
+							<div>×5</div>
+							<div>¥600</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell mui-media ">
+					<div class="mui-media-body">
+						荷兰土豆
+						<div class="xcs-info-group ">
+							<div>箱装35斤</div>
+							<div>×8</div>
+							<div>¥600</div>
+						</div>
+						<div class="xcs-info-group ">
+							<div>论斤称</div>
+							<div>×5</div>
+							<div>¥40</div>
+						</div>
+					</div>
+					
+				</li>
+				<li class="mui-table-view-cell mui-media ">
+					<div class="mui-media-body">
+						无土番茄
+						<div class="xcs-info-group ">
+							<div>箱装30斤</div>
+							<div>×10</div>
+							<div>¥1060</div>
+						</div>
+						
+					</div>
+					
+				</li>
+			</ul>
+			
+			<div class="xy-price mui-text-right">订单金额：2460元</div>
+	
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+		<a id="defaultTab" class="mui-tab-item " href="Purchase/purchase.html">
+			<span class="mui-icon mui-icon-home"></span>
+			<span class="mui-tab-label">采购</span>
+		</a>
+		<a class="mui-tab-item" href="Shopping_Cart/shopping-cart.html">
+			<span class="mui-icon mui-icon-email"></span>
+			<span class="mui-tab-label">购物车</span>
+		</a>
+		<a class="mui-tab-item mui-active" href="Mine/mine.html">
+			<span class="mui-icon mui-icon-contact"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	
+<script src="../js/mui.min.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+      					
+    </script>	
+	
+	
+	
+	
+	
+</body>
+</html>

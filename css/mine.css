@@ -1,0 +1,46 @@
+
+
+
+
+html,body {
+				background-color: #efeff4;
+			}
+			
+			
+			.oa-contact-cell.mui-table .mui-table-cell {
+				padding: 11px 0;
+				vertical-align: middle;
+			}
+			
+			.oa-contact-cell {
+				position: relative;
+				margin: -11px 0;
+			}
+	
+			.oa-contact-avatar {
+				width: 75px;
+			}
+			.oa-contact-avatar img {
+				border-radius: 50%;
+			}
+			.oa-contact-content {
+				color:#F7F7F7;
+				width: 100%;
+			}
+			
+			.oa-contact-phonenumber{
+				color:#F7F7F7;
+			}
+			#receiving-info>.mui-navigate-right:after{
+				color:#F7F7F7 ;
+			}
+			.oa-contact-name {
+				margin-right: 20px;
+				float: left;
+			}
+			
+			.mui-table-view>.mui-table-view-cell:first-child{
+				background-color: #4CD964;
+			}
+			
+			
